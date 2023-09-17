@@ -1,0 +1,261 @@
+/* Styles for the navigation menu */
+
+#navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    text-align: right;
+    margin-top: 3%;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-around;
+   
+}
+
+#navbar li {
+    margin: 0 20px;
+    position: relative;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Change the background color of the menu when scrolled */
+.scroll {
+    background-color: #333;
+}
+
+/* Change the color of the menu items on hover */
+#navbar li:hover a {
+    color: #fadd00;
+}
+
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh; 
+    margin: 0%;
+    background-color: #2C687E; /*Background color for the entire page */
+    background-image: url("Background.jpg");
+}
+
+.centered-box {
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('Back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.centered-box-Serv
+{
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('services.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.centered-box-know{
+
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('knowmore.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-box-contact{
+
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-box-about{
+
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('asch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-box-book{
+
+    width: 80%; /* Adjust the width as needed*/
+    padding: 5px; 
+    text-align: center;
+    background-color: #fff; /* Background color for the centered division */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background-image: url('booktic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-name {
+    background-color: transparent;
+    color: #2C687E;
+    text-align: left;
+    margin-left: 10%;
+    
+   
+}
+
+.contact {
+
+    background-color: transparent;
+    color: wheat;
+    text-align: center;
+    margin-left: 10%;
+    
+
+}
+
+.content {
+
+    text-align: center;
+    color: #fff;
+    margin-top: 15%;
+
+}
+
+.content1 {
+  margin-left: 10%;
+  margin-right: 10%;
+    color: #fff;
+    font-size: medium;
+    text-align: justify;
+    font-style: normal;
+
+}
+
+.content2 {
+    margin-left: 10%;
+    margin-right: 10%;
+      color: #fff;
+      font-size: large;
+      text-align: justify;
+      font-style: normal;
+  
+  }
+  
+  .content3 {
+    margin-left: 10%;
+    margin-right: 10%;
+      color: #fff;
+      font-size: large;
+      text-align: justify;
+      font-style: normal;
+  
+  }
+  
+  .mob {
+
+    display: flex;
+  }
+
+  .space{
+
+    margin-right: 80%;
+  }
+
+  .space1{
+
+    margin-right: 80%;
+  }
+.custom-button{
+
+    text-align: center;
+    color: white;
+    padding: 1%;
+    background-color: #053B50;
+    border: #053B50;
+    margin-left: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+}
+
+.custom-button1{
+
+    text-align: center;
+    color: white;
+    background-color: #053B50;
+    border: #053B50;
+    cursor: pointer;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    
+    
+}
+
+.button{
+
+    margin-top: 5%;
+    margin-bottom: 7%;
+    text-align: center;
+  
+
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+/* CSS for individual grid items (images) */
+.grid-item {
+    text-align: center;
+}
+
+/* CSS to make the images responsive */
+.grid-item img {
+    max-width: 68%;
+    height: 75%;
+}
+
+.grid-text {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: large;
+    color: #fff; /* Text color */
+    padding: 10px; /* Spacing around the text */
+}
